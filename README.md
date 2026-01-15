@@ -2,8 +2,8 @@
 -----------------------------------------------------------------------------
 NOVATHESIS — README.md
 
-Version 7.8.0 (2025-12-09)
-Copyright (C) 2004-25 by João M. Lourenço <joao.lourenco@fct.unl.pt>
+Version 7.9.3 (2026-01-15)
+Copyright (C) 2004-26 by João M. Lourenço <joao.lourenco@fct.unl.pt>
 -----------------------------------------------------------------------------
 -->
 

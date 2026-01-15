@@ -27,11 +27,11 @@
 
 % ITQB-NOVA specific customization
 \AtBeginDocument{% set paper as b5paper
-  \newpdflayout{250mm}{176mm}%
+  \newstocksize{height=250mm,width=176mm}%
 }
 
 \openany
-\ntsetup{print/secondcover=true}
+\ntsetup{print/frontpage=true}
 
 % Loading of fonts must be delayed until class "novathesis" is loaded
 \AtEndPreamble{%
@@ -198,7 +198,7 @@
                             {\@resizetowidth{\linewidth}%
                                             {\textbf{%
 											   \begin{tabular}{@{}l@{}}%
-											   \thedoctitle(\@LANG@COVER,main,cover)%
+											   \thedoctitle(\@LANG@COVER,main)%
 											   \end{tabular}%
 											 }}}};
     % Subtitle

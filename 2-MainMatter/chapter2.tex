@@ -53,7 +53,7 @@ Follow these steps to get started with a local \LaTeX\ installation:
   \item \label{it:project_available} Download additional School specific files if applicable:
   \begin{description}
     \item[Universidade do Minho (UMINHO)] download the required \emph{NewsGotT} font files from
-    \url{https://github.com/joaomlourenco/novathesis-extras/raw/main/Fonts/NewsGotT.zip}\\
+    \url{https://raw.githubusercontent.com/joaomlourenco/novathesis-extras/raw/main/Fonts/NewsGotT.zip}\\
     then unzip the file and copy the~3~font files
 \begin{flushleft}
 \hspace*{0.5cm}“\verb!n015002t.ttf!”, “\verb!n015003t.ttf!”, and “\verb!n015006t.ttf!”
@@ -63,7 +63,7 @@ Follow these steps to get started with a local \LaTeX\ installation:
 \hspace*{0.5cm}“\verb!NOVAthesisFiles/FontStyles/Fonts!”.
 \end{flushleft}
     \item[Escola Superior de Enfermagem do Porto (ESEP)] download the required \emph{Calibri} font files from
-    \url{https://github.com/joaomlourenco/novathesis-extras/raw/main/Fonts/Calibri.zip}\\
+    \url{https://raw.githubusercontent.com/joaomlourenco/novathesis-extras/raw/main/Fonts/Calibri.zip}\\
     then unzip the file and copy the~4~font files
 \begin{flushleft}
 \hspace*{0.5cm}“\verb!Calibri.ttf!”, “\verb!Calibrib.ttf!”, “\verb!Calibrii.ttf!”, and “\verb!Calibriz.ttf!”
@@ -389,12 +389,6 @@ other/esep
 		\defaultopt{print/committee=true if docstatus=final}
 		\defaultopt{print/committee=false otherwise}
 	    }
-%----------------------------------------------------------------------
-	    \midrule
-	  \classoption{print/frontmatter}%
-  	  	{true, \defaultit\newline false}%
-	    {Shall the front matter be printed?}%
-		{Set to false to generate a PDF with only the cover and the book chapters.}
 %----------------------------------------------------------------------
 	    \midrule
 	  \classoption{print/statement}%
@@ -842,10 +836,10 @@ You must choose the class of text for the document. The available options are:
 
 \begin{enumerate}
   \item \textbf{bsc} --- BSc graduation report.
-  \item \textbf{*mscplan} --- Preparation of MSc dissertation. This is a preliminary report graduate students at DI-NOVA FCT must prepare to conclude the first semester of the two-semesters MSc work. The files specified by \verb!\ntdedicatoryfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
+  \item \textbf{*mscplan} --- Preparation of MSc dissertation. This is a preliminary report graduate students at DI-NOVA FCT must prepare to conclude the first semester of the two-semesters MSc work. The files specified by \verb!\ntdedicationfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
   \item \textbf{msc} --- MSc dissertation.
-  \item \textbf{phdprop} ---  Proposal for a PhD work. The files specified by \verb!\ntdedicatoryfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
-  \item \textbf{prepphd} ---  Preparation of a PhD thesis. This is a preliminary report PhD students at DI-NOVA FCT must prepare before the end of the third semester of PhD work. The files specified by \verb!\ntdedicatoryfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
+  \item \textbf{phdprop} ---  Proposal for a PhD work. The files specified by \verb!\ntdedicationfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
+  \item \textbf{prepphd} ---  Preparation of a PhD thesis. This is a preliminary report PhD students at DI-NOVA FCT must prepare before the end of the third semester of PhD work. The files specified by \verb!\ntdedicationfile! and \verb!\acknowledgmentsfile! are ignored, even if present, for this class of document.
   \item \textbf{phd} --- PhD dissertation.
 \end{enumerate}
 % subsection class_of_text (end)
