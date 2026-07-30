@@ -1,8 +1,8 @@
-# Abstract: nova-itqb-novathesis-vA.B.C
+# Abstract: novathesis-nova-itqb-v8.0.0
 
-This is a customized LaTeX template for theses and reports at **Instituto de Tecnologia Química e Biológica António Xavier da Universidade NOVA de Lisboa (NOVA ITQB)**, following the most recent [NOVA ITQB internal PhD guidelines (in Portuguese)](https://www.itqb.unl.pt/education/Academics%A.B.COffice/normas-internas-douts-itqb-A.B.Cpdf). 
+This is a customized LaTeX template for theses and reports at **Instituto de Tecnologia Química e Biológica António Xavier da Universidade NOVA de Lisboa (NOVA ITQB)**, following the most recent [NOVA ITQB internal PhD guidelines (in Portuguese)](https://www.itqb.unl.pt/education/Academics%20Office/normas-internas-douts-itqb-2021.pdf). 
 
-This template is a streamlined and fine-tuned version of the robust **NOVAthesis framework (vA.B.C)**, trimmed down and optimized to provide NOVA ITQB students with a streamlined experience, meeting NOVA ITQB's academic formatting standards without the complexity of the original multi-institution template. 
+This template is a streamlined and fine-tuned version of the robust **NOVAthesis framework (v8.0.0)**, trimmed down and optimized to provide NOVA ITQB students with a streamlined experience, meeting NOVA ITQB's academic formatting standards without the complexity of the original multi-institution template. 
 
 ### Key Features:
 
